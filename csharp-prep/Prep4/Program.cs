@@ -13,8 +13,7 @@ class Program
         while (true)
         {
             Console.WriteLine("enter the number");
-            string  get_number = Console.ReadLine();
-            int changed_number1 = int.Parse(get_number);
+            int changed_number1 = int.Parse(Console.ReadLine());
 
             if (changed_number1 == 0)
             {
@@ -26,10 +25,14 @@ class Program
         int sum_list = number_list.Sum();
         int max_list = number_list.Max();
         double average_list  = number_list.Average();
+        
 
         Console.WriteLine(sum_list);
         Console.WriteLine(max_list);
         Console.WriteLine(average_list);
+        
+
+
 
 
 
