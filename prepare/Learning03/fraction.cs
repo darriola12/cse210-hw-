@@ -32,7 +32,5 @@ public class Fraction
         return (double) _Top / (double) _Botton;
     
     }
-
-
-
+    
 }
