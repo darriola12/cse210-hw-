@@ -1,4 +1,4 @@
-using System.Text;
+ stusing System.Text;
 
 public class Goal
 {
